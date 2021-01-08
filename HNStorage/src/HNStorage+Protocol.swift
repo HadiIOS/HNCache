@@ -47,7 +47,7 @@ internal extension StorageType {
        do {
             return try object.encode()
         } catch {
-            throw HNStorageError.objectNotConfirmingToStorableCoding
+            throw HNStorageError.objectNotConformedToCodable
         }
     }
     
@@ -55,7 +55,7 @@ internal extension StorageType {
         do {
             return try T.decode(data)
         } catch {
-            throw HNStorageError.objectNotConfirmingToStorableCoding
+            throw HNStorageError.objectNotConformedToCodable
         }
     }
 }

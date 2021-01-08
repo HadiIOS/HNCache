@@ -36,7 +36,7 @@ final class HNUserDefaultsStorage: Storage {
             if let decoded: T = try getDecoded(data: data) {
                 return decoded
             } else {
-                throw HNStorageError.objectNotConfirmingToStorableCoding
+                throw HNStorageError.objectNotConformedToCodable
             }
         }
         return nil

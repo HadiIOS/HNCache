@@ -24,10 +24,10 @@ final class HNKeychainStorage: Storage {
             
             let status = SecItemAdd(addQuery, nil)
             guard status == errSecSuccess else {
-                throw HNStorageError.keychainMethodFailed
+                throw HNStorageError.storageErrorOccured
             }
         } else {
-            throw HNStorageError.objectNotConfirmingToStorableCoding
+            throw HNStorageError.objectNotConformedToCodable
         }
     }
     
@@ -37,7 +37,7 @@ final class HNKeychainStorage: Storage {
                                          kSecAttrService: name]
         let status = SecItemUpdate(updateQuery, [kSecValueData: object] as NSDictionary)
         guard status == errSecSuccess else {
-            throw HNStorageError.keychainMethodFailed
+            throw HNStorageError.storageErrorOccured
         }
         
     }
@@ -48,7 +48,7 @@ final class HNKeychainStorage: Storage {
                                          kSecAttrService: self.name]
         let status = SecItemDelete(deleteQuery)
         guard status == errSecSuccess else {
-            throw HNStorageError.keychainMethodFailed
+            throw HNStorageError.storageErrorOccured
         }
     }
     
@@ -64,7 +64,7 @@ final class HNKeychainStorage: Storage {
         } else if (status == errSecItemNotFound) {
             return false
         } else {
-            throw HNStorageError.keychainMethodFailed
+            throw HNStorageError.storageErrorOccured
         }
     }
     
@@ -80,7 +80,7 @@ final class HNKeychainStorage: Storage {
                 if let decoded: T = try getDecoded(data: data) {
                     return decoded
                 } else {
-                    throw HNStorageError.objectNotConfirmingToStorableCoding
+                    throw HNStorageError.objectNotConformedToCodable
                 }
             } else {
                 return nil
@@ -89,7 +89,7 @@ final class HNKeychainStorage: Storage {
         } else if (status == errSecItemNotFound) {
             return nil
         } else {
-            throw HNStorageError.keychainMethodFailed
+            throw HNStorageError.storageErrorOccured
         }
     }
 }

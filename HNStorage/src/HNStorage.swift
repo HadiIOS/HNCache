@@ -8,14 +8,9 @@
 import Foundation
 
 @objc public enum HNStorageError: Int, Error {
-    case coreDataFailedToInitialiseModelWithProvidedName
-    case coreDataFailedToLoadModelFromBundle
-    case coreDataObjectNotConformingToManagedObject
-    case coreDataFetchedDataNotConformingToStorable
-    case objectNotConfirmingToStorableCoding
+    case objectNotConformedToCodable
     case objectNotFound
-    case keychainMethodFailed
-    case objectMustConformToObjectiveStorableNSCoding
+    case storageErrorOccured
 }
 
 internal final class SASStorage<S: Storage>: Storage {

@@ -13,19 +13,19 @@ import Foundation
     case storageErrorOccured
 }
 
-internal final class SASStorage<S: Storage>: Storage {
+final public class HNStorage<S: Storage>: Storage {
     
     private let storage: S
     
-    static func setup() {
+    public static func setup() {
         S.setup()
     }
     
-    init() {
+    public init() {
         storage = S.init(id: nil)
     }
     
-    init(id: String?) { 
+    public init(id: String?) {
         storage = S.init(id: id)
     }
     

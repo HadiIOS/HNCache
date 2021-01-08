@@ -7,7 +7,7 @@
 
 import Foundation
 //MARK:- Storage Protocol -
-typealias Storage = StorageInitializable & StorageType
+public typealias Storage = StorageInitializable & StorageType
 
 public protocol StorageType {
     func insert(_ object: Storable) throws
@@ -31,7 +31,7 @@ public protocol Storable {
     static func decode(_ data: Data) throws -> Self?
 }
 
-extension Storable where Self: Codable {
+public extension Storable where Self: Codable {
     func encode() throws -> Data {
         return try JSONEncoder().encode(self)
     }
@@ -60,7 +60,7 @@ internal extension StorageType {
     }
 }
 
-internal extension StorageInitializable {
+public extension StorageInitializable {
     static func setup() { }
 }
 

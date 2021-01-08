@@ -18,30 +18,30 @@ fileprivate class StructWrapper: NSObject {
     }
 }
 
-final class HNCacheStorage: Storage {
+final public class HNCacheStorage: Storage {
     private static let cache = NSCache<NSString, StructWrapper>.init()
 
-    init(id: String?) { }
+    public init(id: String?) { }
     
-    func insert(_ object: Storable) {
+    public func insert(_ object: Storable) {
         let wrapper = StructWrapper(object, objcValue: nil)
         HNCacheStorage.cache.setObject(wrapper, forKey: object.primaryKey as NSString)
     }
     
-    func update(_ object: Storable) {
+    public func update(_ object: Storable) {
         let wrapper = StructWrapper(object, objcValue: nil)
         HNCacheStorage.cache.setObject(wrapper, forKey: object.primaryKey as NSString)
     }
     
-    func delete(_ object: Storable) {
+    public func delete(_ object: Storable) {
         HNCacheStorage.cache.removeObject(forKey: object.primaryKey as NSString)
     }
     
-    func exists(_ object: Storable) -> Bool {
+    public func exists(_ object: Storable) -> Bool {
         return HNCacheStorage.cache.object(forKey: object.primaryKey as NSString) != nil
     }
 
-    func get<T>(_ key: String) throws -> T? where T : Storable {
+    public func get<T>(_ key: String) throws -> T? where T : Storable {
         return HNCacheStorage.cache.object(forKey: key as NSString)?.value as? T
     }
 }

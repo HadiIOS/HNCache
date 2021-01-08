@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "DA4A69F7-4EC1-421F-BE9A-0576E09DAF0C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:HNStorage.xcodeproj",
+        "identifier" : "0FD8E96A25A8ADA20090E9AE",
+        "name" : "StorageTestings"
+      }
+    }
+  ],
+  "version" : 1
+}

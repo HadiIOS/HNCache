@@ -7,33 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F9E1FA025A913450024F953 /* HNStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E84025A8229C0090E9AE /* HNStorage.swift */; };
+		0F9E1FA725A913560024F953 /* HNCacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E88E25A88AB70090E9AE /* HNCacheStorage.swift */; };
+		0F9E1FA825A913560024F953 /* HNUserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E87925A876030090E9AE /* HNUserDefaultsStorage.swift */; };
+		0F9E1FA925A913560024F953 /* HNDiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E87F25A885B40090E9AE /* HNDiskStorage.swift */; };
+		0F9E1FAA25A913560024F953 /* HNStorage+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E84325A823D50090E9AE /* HNStorage+Protocol.swift */; };
+		0F9E1FAB25A913560024F953 /* HNKeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E88825A8898F0090E9AE /* HNKeychainStorage.swift */; };
+		0F9E1FB925A918BD0024F953 /* HNCacheStorageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E1FB825A918BD0024F953 /* HNCacheStorageTestCase.swift */; };
+		0F9E1FC125A919D20024F953 /* HNKeychainStorageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E1FC025A919D20024F953 /* HNKeychainStorageTestCase.swift */; };
+		0F9E1FDE25A924560024F953 /* HNDiskStorageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E1FDD25A924560024F953 /* HNDiskStorageTestCase.swift */; };
 		0FD8E82B25A81A350090E9AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E82A25A81A350090E9AE /* AppDelegate.swift */; };
 		0FD8E82F25A81A350090E9AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E82E25A81A350090E9AE /* ViewController.swift */; };
 		0FD8E83225A81A350090E9AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD8E83025A81A350090E9AE /* Main.storyboard */; };
 		0FD8E83425A81A370090E9AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD8E83325A81A370090E9AE /* Assets.xcassets */; };
 		0FD8E83725A81A370090E9AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD8E83525A81A370090E9AE /* LaunchScreen.storyboard */; };
-		0FD8E84125A8229C0090E9AE /* HNStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E84025A8229C0090E9AE /* HNStorage.swift */; };
-		0FD8E84425A823D50090E9AE /* HNStorage+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E84325A823D50090E9AE /* HNStorage+Protocol.swift */; };
-		0FD8E87A25A876030090E9AE /* HNUserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E87925A876030090E9AE /* HNUserDefaultsStorage.swift */; };
-		0FD8E88025A885B40090E9AE /* HNDiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E87F25A885B40090E9AE /* HNDiskStorage.swift */; };
-		0FD8E88925A8898F0090E9AE /* HNKeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E88825A8898F0090E9AE /* HNKeychainStorage.swift */; };
-		0FD8E88F25A88AB70090E9AE /* HNCacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E88E25A88AB70090E9AE /* HNCacheStorage.swift */; };
-		0FD8E8F125A8A6DD0090E9AE /* HNStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD8E8E825A8A6DD0090E9AE /* HNStorage.framework */; };
-		0FD8E8F825A8A6DD0090E9AE /* HNStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E8F725A8A6DD0090E9AE /* HNStorageTests.swift */; };
 		0FD8E8FA25A8A6DD0090E9AE /* HNStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD8E8EA25A8A6DD0090E9AE /* HNStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FD8E8FD25A8A6DD0090E9AE /* HNStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD8E8E825A8A6DD0090E9AE /* HNStorage.framework */; };
-		0FD8E8FE25A8A6DD0090E9AE /* HNStorage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD8E8E825A8A6DD0090E9AE /* HNStorage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FD8E96E25A8ADA20090E9AE /* HNUserDefaultsStorageTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E96D25A8ADA20090E9AE /* HNUserDefaultsStorageTestCase.swift */; };
+		0FD8E97025A8ADA20090E9AE /* HNStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD8E8E825A8A6DD0090E9AE /* HNStorage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FD8E8F225A8A6DD0090E9AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FD8E81F25A81A350090E9AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FD8E8E725A8A6DD0090E9AE;
-			remoteInfo = HNStorage;
-		};
-		0FD8E8F425A8A6DD0090E9AE /* PBXContainerItemProxy */ = {
+		0F9E1FC925A91CBC0024F953 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0FD8E81F25A81A350090E9AE /* Project object */;
 			proxyType = 1;
@@ -47,23 +42,19 @@
 			remoteGlobalIDString = 0FD8E8E725A8A6DD0090E9AE;
 			remoteInfo = HNStorage;
 		};
+		0FD8E97125A8ADA20090E9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FD8E81F25A81A350090E9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FD8E8E725A8A6DD0090E9AE;
+			remoteInfo = HNStorage;
+		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		0FD8E90225A8A6DD0090E9AE /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0FD8E8FE25A8A6DD0090E9AE /* HNStorage.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		0F9E1FB825A918BD0024F953 /* HNCacheStorageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNCacheStorageTestCase.swift; sourceTree = "<group>"; };
+		0F9E1FC025A919D20024F953 /* HNKeychainStorageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNKeychainStorageTestCase.swift; sourceTree = "<group>"; };
+		0F9E1FDD25A924560024F953 /* HNDiskStorageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNDiskStorageTestCase.swift; sourceTree = "<group>"; };
 		0FD8E82725A81A350090E9AE /* HNStorageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNStorageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD8E82A25A81A350090E9AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FD8E82E25A81A350090E9AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,14 +68,13 @@
 		0FD8E87F25A885B40090E9AE /* HNDiskStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNDiskStorage.swift; sourceTree = "<group>"; };
 		0FD8E88825A8898F0090E9AE /* HNKeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNKeychainStorage.swift; sourceTree = "<group>"; };
 		0FD8E88E25A88AB70090E9AE /* HNCacheStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNCacheStorage.swift; sourceTree = "<group>"; };
-		0FD8E89825A88C280090E9AE /* HNStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNStorageTests.swift; sourceTree = "<group>"; };
-		0FD8E89A25A88C280090E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FD8E8E825A8A6DD0090E9AE /* HNStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HNStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD8E8EA25A8A6DD0090E9AE /* HNStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HNStorage.h; sourceTree = "<group>"; };
 		0FD8E8EB25A8A6DD0090E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FD8E8F025A8A6DD0090E9AE /* HNStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FD8E8F725A8A6DD0090E9AE /* HNStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNStorageTests.swift; sourceTree = "<group>"; };
-		0FD8E8F925A8A6DD0090E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD8E96B25A8ADA20090E9AE /* StorageTestings.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageTestings.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD8E96D25A8ADA20090E9AE /* HNUserDefaultsStorageTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNUserDefaultsStorageTestCase.swift; sourceTree = "<group>"; };
+		0FD8E96F25A8ADA20090E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD8E97825A8ADBF0090E9AE /* HNStorage.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = HNStorage.xctestplan; path = HNStorage.xcodeproj/HNStorage.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +93,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FD8E8ED25A8A6DD0090E9AE /* Frameworks */ = {
+		0FD8E96825A8ADA20090E9AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD8E8F125A8A6DD0090E9AE /* HNStorage.framework in Frameworks */,
+				0FD8E97025A8ADA20090E9AE /* HNStorage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,10 +107,10 @@
 		0FD8E81E25A81A350090E9AE = {
 			isa = PBXGroup;
 			children = (
+				0FD8E97825A8ADBF0090E9AE /* HNStorage.xctestplan */,
 				0FD8E82925A81A350090E9AE /* HNStorage */,
-				0FD8E89725A88C280090E9AE /* HNStorageTests */,
 				0FD8E8E925A8A6DD0090E9AE /* HNStorage */,
-				0FD8E8F625A8A6DD0090E9AE /* HNStorageTests */,
+				0FD8E96C25A8ADA20090E9AE /* StorageTestings */,
 				0FD8E82825A81A350090E9AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,7 +120,7 @@
 			children = (
 				0FD8E82725A81A350090E9AE /* HNStorageExample.app */,
 				0FD8E8E825A8A6DD0090E9AE /* HNStorage.framework */,
-				0FD8E8F025A8A6DD0090E9AE /* HNStorageTests.xctest */,
+				0FD8E96B25A8ADA20090E9AE /* StorageTestings.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,15 +183,6 @@
 			path = MemoryCache;
 			sourceTree = "<group>";
 		};
-		0FD8E89725A88C280090E9AE /* HNStorageTests */ = {
-			isa = PBXGroup;
-			children = (
-				0FD8E89825A88C280090E9AE /* HNStorageTests.swift */,
-				0FD8E89A25A88C280090E9AE /* Info.plist */,
-			);
-			path = HNStorageTests;
-			sourceTree = "<group>";
-		};
 		0FD8E8E925A8A6DD0090E9AE /* HNStorage */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,13 +193,16 @@
 			path = HNStorage;
 			sourceTree = "<group>";
 		};
-		0FD8E8F625A8A6DD0090E9AE /* HNStorageTests */ = {
+		0FD8E96C25A8ADA20090E9AE /* StorageTestings */ = {
 			isa = PBXGroup;
 			children = (
-				0FD8E8F725A8A6DD0090E9AE /* HNStorageTests.swift */,
-				0FD8E8F925A8A6DD0090E9AE /* Info.plist */,
+				0FD8E96D25A8ADA20090E9AE /* HNUserDefaultsStorageTestCase.swift */,
+				0F9E1FB825A918BD0024F953 /* HNCacheStorageTestCase.swift */,
+				0F9E1FC025A919D20024F953 /* HNKeychainStorageTestCase.swift */,
+				0F9E1FDD25A924560024F953 /* HNDiskStorageTestCase.swift */,
+				0FD8E96F25A8ADA20090E9AE /* Info.plist */,
 			);
-			path = HNStorageTests;
+			path = StorageTestings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +226,6 @@
 				0FD8E82325A81A350090E9AE /* Sources */,
 				0FD8E82425A81A350090E9AE /* Frameworks */,
 				0FD8E82525A81A350090E9AE /* Resources */,
-				0FD8E90225A8A6DD0090E9AE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,23 +255,23 @@
 			productReference = 0FD8E8E825A8A6DD0090E9AE /* HNStorage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0FD8E8EF25A8A6DD0090E9AE /* HNStorageTests */ = {
+		0FD8E96A25A8ADA20090E9AE /* StorageTestings */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FD8E90325A8A6DD0090E9AE /* Build configuration list for PBXNativeTarget "HNStorageTests" */;
+			buildConfigurationList = 0FD8E97325A8ADA20090E9AE /* Build configuration list for PBXNativeTarget "StorageTestings" */;
 			buildPhases = (
-				0FD8E8EC25A8A6DD0090E9AE /* Sources */,
-				0FD8E8ED25A8A6DD0090E9AE /* Frameworks */,
-				0FD8E8EE25A8A6DD0090E9AE /* Resources */,
+				0FD8E96725A8ADA20090E9AE /* Sources */,
+				0FD8E96825A8ADA20090E9AE /* Frameworks */,
+				0FD8E96925A8ADA20090E9AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0FD8E8F325A8A6DD0090E9AE /* PBXTargetDependency */,
-				0FD8E8F525A8A6DD0090E9AE /* PBXTargetDependency */,
+				0FD8E97225A8ADA20090E9AE /* PBXTargetDependency */,
+				0F9E1FCA25A91CBC0024F953 /* PBXTargetDependency */,
 			);
-			name = HNStorageTests;
-			productName = HNStorageTests;
-			productReference = 0FD8E8F025A8A6DD0090E9AE /* HNStorageTests.xctest */;
+			name = StorageTestings;
+			productName = StorageTestings;
+			productReference = 0FD8E96B25A8ADA20090E9AE /* StorageTestings.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -306,7 +289,7 @@
 					0FD8E8E725A8A6DD0090E9AE = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
-					0FD8E8EF25A8A6DD0090E9AE = {
+					0FD8E96A25A8ADA20090E9AE = {
 						CreatedOnToolsVersion = 12.0.1;
 						TestTargetID = 0FD8E82625A81A350090E9AE;
 					};
@@ -327,7 +310,7 @@
 			targets = (
 				0FD8E82625A81A350090E9AE /* HNStorageExample */,
 				0FD8E8E725A8A6DD0090E9AE /* HNStorage */,
-				0FD8E8EF25A8A6DD0090E9AE /* HNStorageTests */,
+				0FD8E96A25A8ADA20090E9AE /* StorageTestings */,
 			);
 		};
 /* End PBXProject section */
@@ -350,7 +333,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FD8E8EE25A8A6DD0090E9AE /* Resources */ = {
+		0FD8E96925A8ADA20090E9AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,13 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD8E82F25A81A350090E9AE /* ViewController.swift in Sources */,
-				0FD8E88925A8898F0090E9AE /* HNKeychainStorage.swift in Sources */,
-				0FD8E84425A823D50090E9AE /* HNStorage+Protocol.swift in Sources */,
-				0FD8E84125A8229C0090E9AE /* HNStorage.swift in Sources */,
-				0FD8E88025A885B40090E9AE /* HNDiskStorage.swift in Sources */,
 				0FD8E82B25A81A350090E9AE /* AppDelegate.swift in Sources */,
-				0FD8E88F25A88AB70090E9AE /* HNCacheStorage.swift in Sources */,
-				0FD8E87A25A876030090E9AE /* HNUserDefaultsStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,34 +356,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9E1FA925A913560024F953 /* HNDiskStorage.swift in Sources */,
+				0F9E1FAA25A913560024F953 /* HNStorage+Protocol.swift in Sources */,
+				0F9E1FA725A913560024F953 /* HNCacheStorage.swift in Sources */,
+				0F9E1FA025A913450024F953 /* HNStorage.swift in Sources */,
+				0F9E1FA825A913560024F953 /* HNUserDefaultsStorage.swift in Sources */,
+				0F9E1FAB25A913560024F953 /* HNKeychainStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FD8E8EC25A8A6DD0090E9AE /* Sources */ = {
+		0FD8E96725A8ADA20090E9AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD8E8F825A8A6DD0090E9AE /* HNStorageTests.swift in Sources */,
+				0F9E1FDE25A924560024F953 /* HNDiskStorageTestCase.swift in Sources */,
+				0F9E1FC125A919D20024F953 /* HNKeychainStorageTestCase.swift in Sources */,
+				0FD8E96E25A8ADA20090E9AE /* HNUserDefaultsStorageTestCase.swift in Sources */,
+				0F9E1FB925A918BD0024F953 /* HNCacheStorageTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FD8E8F325A8A6DD0090E9AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FD8E8E725A8A6DD0090E9AE /* HNStorage */;
-			targetProxy = 0FD8E8F225A8A6DD0090E9AE /* PBXContainerItemProxy */;
-		};
-		0FD8E8F525A8A6DD0090E9AE /* PBXTargetDependency */ = {
+		0F9E1FCA25A91CBC0024F953 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0FD8E82625A81A350090E9AE /* HNStorageExample */;
-			targetProxy = 0FD8E8F425A8A6DD0090E9AE /* PBXContainerItemProxy */;
+			targetProxy = 0F9E1FC925A91CBC0024F953 /* PBXContainerItemProxy */;
 		};
 		0FD8E8FC25A8A6DD0090E9AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0FD8E8E725A8A6DD0090E9AE /* HNStorage */;
 			targetProxy = 0FD8E8FB25A8A6DD0090E9AE /* PBXContainerItemProxy */;
+		};
+		0FD8E97225A8ADA20090E9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FD8E8E725A8A6DD0090E9AE /* HNStorage */;
+			targetProxy = 0FD8E97125A8ADA20090E9AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -551,7 +537,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HNStorageExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z7L6989MMU;
 				INFOPLIST_FILE = HNStorage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -572,7 +560,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HNStorageExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z7L6989MMU;
 				INFOPLIST_FILE = HNStorage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -600,11 +590,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HNStorage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = HN.HNStorage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -627,11 +619,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = HNStorage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = HN.HNStorage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -642,19 +636,19 @@
 			};
 			name = Release;
 		};
-		0FD8E90425A8A6DD0090E9AE /* Debug */ = {
+		0FD8E97425A8ADA20090E9AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7L6989MMU;
-				INFOPLIST_FILE = HNStorageTests/Info.plist;
+				INFOPLIST_FILE = StorageTestings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HN.HNStorageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = HN.StorageTestings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -662,19 +656,19 @@
 			};
 			name = Debug;
 		};
-		0FD8E90525A8A6DD0090E9AE /* Release */ = {
+		0FD8E97525A8ADA20090E9AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7L6989MMU;
-				INFOPLIST_FILE = HNStorageTests/Info.plist;
+				INFOPLIST_FILE = StorageTestings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HN.HNStorageTests;
+				PRODUCT_BUNDLE_IDENTIFIER = HN.StorageTestings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -712,11 +706,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FD8E90325A8A6DD0090E9AE /* Build configuration list for PBXNativeTarget "HNStorageTests" */ = {
+		0FD8E97325A8ADA20090E9AE /* Build configuration list for PBXNativeTarget "StorageTestings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FD8E90425A8A6DD0090E9AE /* Debug */,
-				0FD8E90525A8A6DD0090E9AE /* Release */,
+				0FD8E97425A8ADA20090E9AE /* Debug */,
+				0FD8E97525A8ADA20090E9AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

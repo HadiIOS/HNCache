@@ -16,8 +16,11 @@ Working with different storage options such as UserDefaults, Disk, or even keych
 
 ### Supported Storing options:
 >  Keychain (`HNKeychainStorage`)
+>
 > UserDefaults (`HNUserDefaultsStorage`)
+>
 > Memory Cache (`HNCacheStorage`)
+>
 > Local Disk Cache (`HNDiskStorage`)
 
 ### Usage
@@ -34,9 +37,13 @@ let storage = HNStorage<HNDiskStorage>(id: "preferred_location_on_disk")
 - right now we support simple CRUD operation so we have the following functions:
 
 > `insert(object: Storable)`
+>
 > `update(object: Storable)`
+>
 > `delete(object: Storable)`
+>
 > `exists(object: Storable) -> Bool`
+>
 > `get<T: Storable>(_ key: String) throws -> T?`
 
 

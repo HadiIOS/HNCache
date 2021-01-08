@@ -8,26 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		0FD8E82B25A81A350090E9AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E82A25A81A350090E9AE /* AppDelegate.swift */; };
-		0FD8E82D25A81A350090E9AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E82C25A81A350090E9AE /* SceneDelegate.swift */; };
 		0FD8E82F25A81A350090E9AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E82E25A81A350090E9AE /* ViewController.swift */; };
 		0FD8E83225A81A350090E9AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD8E83025A81A350090E9AE /* Main.storyboard */; };
 		0FD8E83425A81A370090E9AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD8E83325A81A370090E9AE /* Assets.xcassets */; };
 		0FD8E83725A81A370090E9AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD8E83525A81A370090E9AE /* LaunchScreen.storyboard */; };
+		0FD8E84125A8229C0090E9AE /* HNStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E84025A8229C0090E9AE /* HNStorage.swift */; };
+		0FD8E84425A823D50090E9AE /* HNStorage+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E84325A823D50090E9AE /* HNStorage+Protocol.swift */; };
+		0FD8E87A25A876030090E9AE /* HNUserDefaultsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E87925A876030090E9AE /* HNUserDefaultsStorage.swift */; };
+		0FD8E88025A885B40090E9AE /* HNDiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E87F25A885B40090E9AE /* HNDiskStorage.swift */; };
+		0FD8E88925A8898F0090E9AE /* HNKeychainStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E88825A8898F0090E9AE /* HNKeychainStorage.swift */; };
+		0FD8E88F25A88AB70090E9AE /* HNCacheStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E88E25A88AB70090E9AE /* HNCacheStorage.swift */; };
+		0FD8E89925A88C280090E9AE /* HNStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8E89825A88C280090E9AE /* HNStorageTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FD8E89B25A88C280090E9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FD8E81F25A81A350090E9AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FD8E82625A81A350090E9AE;
+			remoteInfo = HNStorage;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0FD8E82725A81A350090E9AE /* HNStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD8E82A25A81A350090E9AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FD8E82C25A81A350090E9AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0FD8E82E25A81A350090E9AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FD8E83125A81A350090E9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FD8E83325A81A370090E9AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD8E83625A81A370090E9AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FD8E83825A81A370090E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD8E84025A8229C0090E9AE /* HNStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNStorage.swift; sourceTree = "<group>"; };
+		0FD8E84325A823D50090E9AE /* HNStorage+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HNStorage+Protocol.swift"; sourceTree = "<group>"; };
+		0FD8E87925A876030090E9AE /* HNUserDefaultsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNUserDefaultsStorage.swift; sourceTree = "<group>"; };
+		0FD8E87F25A885B40090E9AE /* HNDiskStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNDiskStorage.swift; sourceTree = "<group>"; };
+		0FD8E88825A8898F0090E9AE /* HNKeychainStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNKeychainStorage.swift; sourceTree = "<group>"; };
+		0FD8E88E25A88AB70090E9AE /* HNCacheStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNCacheStorage.swift; sourceTree = "<group>"; };
+		0FD8E89625A88C280090E9AE /* HNStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD8E89825A88C280090E9AE /* HNStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNStorageTests.swift; sourceTree = "<group>"; };
+		0FD8E89A25A88C280090E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0FD8E82425A81A350090E9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FD8E89325A88C280090E9AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				0FD8E82925A81A350090E9AE /* HNStorage */,
+				0FD8E89725A88C280090E9AE /* HNStorageTests */,
 				0FD8E82825A81A350090E9AE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				0FD8E82725A81A350090E9AE /* HNStorage.app */,
+				0FD8E89625A88C280090E9AE /* HNStorageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,8 +89,8 @@
 		0FD8E82925A81A350090E9AE /* HNStorage */ = {
 			isa = PBXGroup;
 			children = (
+				0FD8E83F25A81A420090E9AE /* src */,
 				0FD8E82A25A81A350090E9AE /* AppDelegate.swift */,
-				0FD8E82C25A81A350090E9AE /* SceneDelegate.swift */,
 				0FD8E82E25A81A350090E9AE /* ViewController.swift */,
 				0FD8E83025A81A350090E9AE /* Main.storyboard */,
 				0FD8E83325A81A370090E9AE /* Assets.xcassets */,
@@ -65,6 +98,60 @@
 				0FD8E83825A81A370090E9AE /* Info.plist */,
 			);
 			path = HNStorage;
+			sourceTree = "<group>";
+		};
+		0FD8E83F25A81A420090E9AE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0FD8E84025A8229C0090E9AE /* HNStorage.swift */,
+				0FD8E84325A823D50090E9AE /* HNStorage+Protocol.swift */,
+				0FD8E87E25A885A50090E9AE /* Disk */,
+				0FD8E88725A889830090E9AE /* Keychain */,
+				0FD8E88D25A88AA30090E9AE /* MemoryCache */,
+				0FD8E87825A875F10090E9AE /* UserDefaults */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0FD8E87825A875F10090E9AE /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				0FD8E87925A876030090E9AE /* HNUserDefaultsStorage.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		0FD8E87E25A885A50090E9AE /* Disk */ = {
+			isa = PBXGroup;
+			children = (
+				0FD8E87F25A885B40090E9AE /* HNDiskStorage.swift */,
+			);
+			path = Disk;
+			sourceTree = "<group>";
+		};
+		0FD8E88725A889830090E9AE /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				0FD8E88825A8898F0090E9AE /* HNKeychainStorage.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		0FD8E88D25A88AA30090E9AE /* MemoryCache */ = {
+			isa = PBXGroup;
+			children = (
+				0FD8E88E25A88AB70090E9AE /* HNCacheStorage.swift */,
+			);
+			path = MemoryCache;
+			sourceTree = "<group>";
+		};
+		0FD8E89725A88C280090E9AE /* HNStorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FD8E89825A88C280090E9AE /* HNStorageTests.swift */,
+				0FD8E89A25A88C280090E9AE /* Info.plist */,
+			);
+			path = HNStorageTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +174,24 @@
 			productReference = 0FD8E82725A81A350090E9AE /* HNStorage.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0FD8E89525A88C280090E9AE /* HNStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FD8E89D25A88C280090E9AE /* Build configuration list for PBXNativeTarget "HNStorageTests" */;
+			buildPhases = (
+				0FD8E89225A88C280090E9AE /* Sources */,
+				0FD8E89325A88C280090E9AE /* Frameworks */,
+				0FD8E89425A88C280090E9AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FD8E89C25A88C280090E9AE /* PBXTargetDependency */,
+			);
+			name = HNStorageTests;
+			productName = HNStorageTests;
+			productReference = 0FD8E89625A88C280090E9AE /* HNStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +203,10 @@
 				TargetAttributes = {
 					0FD8E82625A81A350090E9AE = {
 						CreatedOnToolsVersion = 12.0.1;
+					};
+					0FD8E89525A88C280090E9AE = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 0FD8E82625A81A350090E9AE;
 					};
 				};
 			};
@@ -115,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				0FD8E82625A81A350090E9AE /* HNStorage */,
+				0FD8E89525A88C280090E9AE /* HNStorageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0FD8E89425A88C280090E9AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +255,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FD8E82F25A81A350090E9AE /* ViewController.swift in Sources */,
+				0FD8E88925A8898F0090E9AE /* HNKeychainStorage.swift in Sources */,
+				0FD8E84425A823D50090E9AE /* HNStorage+Protocol.swift in Sources */,
+				0FD8E84125A8229C0090E9AE /* HNStorage.swift in Sources */,
+				0FD8E88025A885B40090E9AE /* HNDiskStorage.swift in Sources */,
 				0FD8E82B25A81A350090E9AE /* AppDelegate.swift in Sources */,
-				0FD8E82D25A81A350090E9AE /* SceneDelegate.swift in Sources */,
+				0FD8E88F25A88AB70090E9AE /* HNCacheStorage.swift in Sources */,
+				0FD8E87A25A876030090E9AE /* HNUserDefaultsStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FD8E89225A88C280090E9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD8E89925A88C280090E9AE /* HNStorageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FD8E89C25A88C280090E9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FD8E82625A81A350090E9AE /* HNStorage */;
+			targetProxy = 0FD8E89B25A88C280090E9AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0FD8E83025A81A350090E9AE /* Main.storyboard */ = {
@@ -289,11 +427,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7L6989MMU;
 				INFOPLIST_FILE = HNStorage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sas.HNStorage;
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = HN.HNStorage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,14 +448,56 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7L6989MMU;
 				INFOPLIST_FILE = HNStorage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sas.HNStorage;
+				MARKETING_VERSION = 0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = HN.HNStorage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FD8E89E25A88C280090E9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7L6989MMU;
+				INFOPLIST_FILE = HNStorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HN.HNStorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNStorage.app/HNStorage";
+			};
+			name = Debug;
+		};
+		0FD8E89F25A88C280090E9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7L6989MMU;
+				INFOPLIST_FILE = HNStorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HN.HNStorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNStorage.app/HNStorage";
 			};
 			name = Release;
 		};
@@ -336,6 +518,15 @@
 			buildConfigurations = (
 				0FD8E83C25A81A370090E9AE /* Debug */,
 				0FD8E83D25A81A370090E9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FD8E89D25A88C280090E9AE /* Build configuration list for PBXNativeTarget "HNStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD8E89E25A88C280090E9AE /* Debug */,
+				0FD8E89F25A88C280090E9AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

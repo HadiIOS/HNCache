@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Hady" => "hady.nourallah@gmail.com" }
   # Or just: spec.author    = "Hady"
   # spec.authors            = { "Hady" => "hady.nourallah@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/Hady"
+  # spec.social_media_url   = "https://www.linkedin.com/in/hady-nourallah/"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -66,14 +66,14 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
+  
+  spec.swift_version = '4.2'
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
   spec.ios.deployment_target = "10.0"
-  spec.swift_version = "4.2"
+  spec.osx.deployment_target = "10.9"
+  spec.watchos.deployment_target = "3.2"
+  spec.tvos.deployment_target = "10.2"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/HadiIOS/HNStorage.git", :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/HadiIOS/HNStorage.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
